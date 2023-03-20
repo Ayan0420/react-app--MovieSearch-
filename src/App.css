@@ -14,7 +14,7 @@
 
 body {
   font-family: var(--font-roboto);
-  background-color: #20212e;
+  background-color: #262c76;
 }
 
 .app {
@@ -31,8 +31,8 @@ h1 {
   letter-spacing: 0.9px;
   background: linear-gradient(
     90deg,
-    rgb(185, 249, 180) 0%,
-    rgba(249, 211, 180, 0) 100%
+    #b9f9b4 0%,
+    #b9f9b4 100%
   );
   background-clip: text;
   -webkit-background-clip: text;
@@ -48,11 +48,9 @@ h1 {
   align-items: center;
   justify-content: center;
 
-  padding: 1.5rem 1.75rem;
+  padding: .5rem 1.75rem;
   border-radius: 3rem;
   background: #1f2123;
-  -webkit-box-shadow: 5px 5px 7px #1c1d1f, -5px -5px 7px #222527;
-  box-shadow: 5px 5px 7px #1c1d1f, -5px -5px 7px #222527;
 }
 
 .search input {
@@ -101,7 +99,7 @@ h1 {
 
 .empty h2 {
   font-size: 1.25rem;
-  color: #f9d3b4;
+  color: #b9f9b4;
   font-family: var(--font-raleway);
 }
 
@@ -121,7 +119,7 @@ h1 {
   margin: 1.5rem;
 
   position: relative;
-  border-radius: 12px;
+  border-radius: 5px;
   overflow: hidden;
   border: none;
 
@@ -135,7 +133,7 @@ h1 {
   width: 100%;
   opacity: 0;
   top: 0;
-  color: #f9d3b4;
+  color: #b9f9b4;
 }
 
 .movie:hover {
@@ -176,7 +174,7 @@ h1 {
 .movie div:nth-of-type(3) h3 {
   margin-top: 5px;
   font-family: "Roboto Slab", serif;
-  color: #f9d3b4;
+  color: #b9f9b4;
 }
 
 .movie:hover div:nth-of-type(2) {
@@ -229,4 +227,13 @@ h1 {
     width: "100%";
     margin: 1rem;
   }
+}
+
+.sub-title {
+  color: #909090;
+  margin-top: 1rem;
+}
+
+footer {
+  margin-top: 5rem;
 }
